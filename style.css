@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.main-box div {
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+p:last-of-type {
+    font-size: 20px;
+    color: #b0b0b0;
+    margin-top: 5px;
+}
+
+#ap {
+    font-size: 40px;
+    color: coral;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 120px;
+}
+
+
+.button-container button:active {
+    transform: translateY(-1px);
+}
+
+#checkbox{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 100%;
+    
+}
+label{
+    font-size: 22px;
+}
